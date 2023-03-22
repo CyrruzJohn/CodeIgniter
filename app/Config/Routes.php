@@ -33,6 +33,8 @@ $routes->get('/', 'Home::index');
 $routes->get('/login', 'Home::login');
 $routes->get('/logout', 'Home::logout');
 $routes->get('/admin', 'Home::admin');
+$routes->get('/register', 'Home::register');
+
 $routes->post('/process/(:any)', 'Home::process/$1');
 
 

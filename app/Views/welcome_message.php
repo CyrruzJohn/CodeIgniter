@@ -221,9 +221,11 @@
     <div class="heroe">
 
         <h1>Welcome to CodeIgniter <?= CodeIgniter\CodeIgniter::CI_VERSION ?></h1>
-
+<nbsp/>
         <h2>The small framework with powerful features</h2>
         <a href="http://localhost/codeigniter/public/login">Log in</a>
+        <a href="http://localhost/codeigniter/public/register">register</a>
+
 
     </div>
 </header>

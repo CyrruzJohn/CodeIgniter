@@ -17,6 +17,11 @@ class Home extends BaseController
     }    
         return view('login_page');
     }
+    
+    public function register()
+    {
+        return view('register_page');
+    }
 
     public function logout()
     {
